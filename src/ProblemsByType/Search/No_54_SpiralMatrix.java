@@ -1,4 +1,4 @@
-package Problems;
+package ProblemsByType.Search;
 // LeetCode.54
 /*
  * 思路：定义搜索过程walk(x,y,dir,map)表示在坐标(x,y)处向dir方向搜索，然后处理 搜索到边界 和 搜索到已搜索过节点 这两种情况，分别根据搜索方向选择下一个方向以及起点进行递归搜索；
@@ -6,10 +6,11 @@ package Problems;
 import java.util.LinkedList;
 import java.util.List;
 
-public class SpiralMatrix {
+public class No_54_SpiralMatrix
+{
 	private List<Integer> res = new LinkedList<>();
 	public static void main(String[] args) {
-		SpiralMatrix solution = new SpiralMatrix();
+		No_54_SpiralMatrix solution = new No_54_SpiralMatrix();
 		int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
 		solution.spiralOrder(matrix);
 		solution.print();

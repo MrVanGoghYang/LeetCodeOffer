@@ -1,9 +1,10 @@
-package Problems;
+package ProblemsByType.DP;
 
-/*
+/* 115. 不同的子序列
  * 递归问题不加循环，转换为小1规模的子问题即可，并定义问题规模为1 最小时的递归出口。
  */
-public class DifferentSubSeq {
+public class No_115_DifferentSubSeq
+{
 	private int[][] searchRecord;
 	
 	public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class DifferentSubSeq {
 //		String t = "ab";
 		String s = "adbdadeecadeadeccaeaabdabdbcdabddddabcaaadbabaaedeeddeaeebcdeabcaaaeeaeeabcddcebddebeebedaecccbdcbcedbdaeaedcdebeecdaaedaacadbdccabddaddacdddc";
 		String t = "bcddceeeebecbc";
-		DifferentSubSeq solution = new DifferentSubSeq();
+		No_115_DifferentSubSeq solution = new No_115_DifferentSubSeq();
 		System.out.println(solution.numDistinct(s, t));
 	}
 	/*

@@ -1,16 +1,17 @@
-package Problems;
+package SwordRefersToOffer;
 /* LeetCode.09
  * 方法一：插入用stack1，删除将stack1元素全部pop后push入stack2，stack2 pop栈顶元素，再将stack2元素全部pop后push入stack1；
  * 方法二：用stack1作插入用，stack2作删除用，当stack2中没有元素时将stack1元素全部pop后push入stack2；当stack2中有元素时直接pop；
  */
 import java.util.Stack;
 
-public class QueueWithTwoStack {
+public class No_09_QueueWithTwoStack
+{
 	private Stack<Integer> stack1;
 	private Stack<Integer> stack2;
 	private int length;
 
-	public QueueWithTwoStack() {
+	public No_09_QueueWithTwoStack() {
 		stack1 = new Stack<Integer>();
 		stack2 = new Stack<Integer>();
 		length = 0;

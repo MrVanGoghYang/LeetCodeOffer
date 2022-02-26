@@ -1,11 +1,12 @@
-package Problems;
+package SwordRefersToOffer;
 /*	LeetCode.44
  *  1.首先根据n的值可以计算出指向一个几位数并记录index值为指向第一个几位数的最高位1；(比如为4位数，index指向1000的最高位1)
  *  2.根据index与n的差判断是第几个4位数以及指向的是数的从高到低第几位，如果刚好取余为0则说明是指向最低位，记为从高到低第4位；
  *  3.根据是第几个4位数可以得到指向的真正数字的数值；
  *  4.根据真实数值以及指向的是该值从高到低的第几位可得到这个数字；
  */
-public class ANumInSequence {
+public class No_44_ANumInSequence
+{
 	public int findNthDigit(int n) {
 		int numsCount = 0;  //记录数为几位数
 		int index = 0;		//记录当前扫描到第几位了

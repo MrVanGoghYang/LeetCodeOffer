@@ -1,10 +1,11 @@
-package Problems;
+package SwordRefersToOffer;
 /*	
  * LeetCode.57
  * 方法一：遍历数组当数值小于和时即有可能为结果之一，由于数组有序则对(和-这个数)在该数的左半或右半中进行二分查找，当另一个数也存在时，输出该两个数即可；
  * 方法二：前后双指针i,j指向数组的第一个数和最后一个数，并计算其和s，当s>target过大时，j前移一位来缩小其和；当s<target时，i后移一位来增大其和，直到等于target时停止；
  */
-public class TwoNumsSumIsS {
+public class No_57_TwoNumsSumIsS
+{
     public int[] twoSum(int[] nums, int target) {
     	int[] res =new int[2];
     	int low = 0;

@@ -1,4 +1,4 @@
-package ProblemsType;
+package ProblemsByType.Search;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -10,7 +10,8 @@ import java.util.Queue;
  * 		当队列为空时，cost数组中储存了到达所给表中每个空格的最小代价。
  * 总结： 求min问题，考虑BFS用队列贪心算法逐步向外求解。
  */
-public class Bfs_MinCost {
+public class No_1368_Bfs_MinCost
+{
 	class BlankInfo
 	{
 		int x;
@@ -19,7 +20,7 @@ public class Bfs_MinCost {
 	}
 	
 	public static void main(String[] args) {
-		Bfs_MinCost solution = new Bfs_MinCost();
+		No_1368_Bfs_MinCost solution = new No_1368_Bfs_MinCost();
 		//int [][] grid = {{1,1,1,1},{2,2,2,2},{1,1,1,1},{2,2,2,2}};
 		//int [][] grid = {{1,2},{4,3}};
 		//int [][] grid = {{2,2,2},{2,2,2}};

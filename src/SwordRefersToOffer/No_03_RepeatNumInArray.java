@@ -1,10 +1,11 @@
-package Problems;
+package SwordRefersToOffer;
 /* LeetCode.03
  * 对数组排序后扫描，当出现前后重复的即返回;
  */
 import java.util.Arrays;
 
-public class RepeatNumInArray {
+public class No_03_RepeatNumInArray
+{
 	
 	public int findRepeatNumber(int[] nums) {
 		int pre = 0;

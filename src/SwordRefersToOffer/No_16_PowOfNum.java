@@ -1,11 +1,12 @@
-package Problems;
+package SwordRefersToOffer;
 /*
  * 	LeetCode.16
  * 	方法一：分正负次方以及是否为2的次方分别使用移位操作处理；
  *  方法二：快速幂见题解；
  * 
  */
-public class PowOfNum {
+public class No_16_PowOfNum
+{
 	public double myPow(double x, int n) {
 		boolean fushuSquare;
 		boolean fushuX;

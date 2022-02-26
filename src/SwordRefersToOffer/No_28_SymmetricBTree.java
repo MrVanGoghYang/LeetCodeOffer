@@ -1,11 +1,15 @@
-package Problems;
-/* 
+package SwordRefersToOffer;
+
+import SwordRefersToOffer.DataDefine.TreeNode;
+
+/*
  * LeetCode.28
  * 方法一：先对树进行中序遍历并记录下该节点是其父亲的左节点还是右节点，左1右2树根为0;  然后使用中序遍历结果和左右节点记录结果判断：
  * 		若对称则需： 1.中序遍历数组左右对称； 2.左右节点记录数组对称位置的值必须相反(一边为1一边为2)不能相同或存在0；
  * 方法二：递归判断。两个节点开始的树对称当且仅当：1.这两个节点的数值相同； 2.左节点的左子树与右节点的右子树对称；  3.左节点的右子树与右节点的左子树对称；
  */
-public class SymmetricBTree {
+public class No_28_SymmetricBTree
+{
 	public boolean isSymmetric(TreeNode root) {
 		int[] treeVal = new int[1000];
 		int[] flag = new int[1000];

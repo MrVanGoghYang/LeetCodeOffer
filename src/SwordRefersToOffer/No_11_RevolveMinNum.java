@@ -1,8 +1,8 @@
-package Problems;
+package SwordRefersToOffer;
 /* LeetCode.11
  * 从前往后扫描当扫描到后一个数比前一个数小时，记后一个数为Min;
  */
-public class RevolveMinNum 
+public class No_11_RevolveMinNum
 {
 	 public int minArray(int[] numbers) 
 	 {

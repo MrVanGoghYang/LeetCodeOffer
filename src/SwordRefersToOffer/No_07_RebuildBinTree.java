@@ -1,12 +1,15 @@
-package Problems;
+package SwordRefersToOffer;
 /* LeetCode.07
  * 用HashMap存储中序遍历中<节点值，下标>用于缩短查询时间;
  * 在pre中取第一个元素作根，然后找到该元素在in中的index将in分为左右两部分，分别传入参数递归建树；
  * 
  */
+import SwordRefersToOffer.DataDefine.TreeNode;
+
 import java.util.HashMap;
 
-public class RebuildBinTree {
+public class No_07_RebuildBinTree
+{
 	public TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder == null || preorder.length == 0) {
             return null;

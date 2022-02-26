@@ -1,8 +1,9 @@
-package Problems;
+package SwordRefersToOffer;
 /*	LeetCode.04
  * 由于行列均为递增有序，故扫描target可能在哪一行，然后对那一行二分查找；
  */
-public class TwoDimensionArraySearch {
+public class No_04_TwoDimensionArraySearch
+{
 	public boolean findNumberIn2DArray(int[][] matrix, int target) {
         int n = matrix.length;
 		int m;

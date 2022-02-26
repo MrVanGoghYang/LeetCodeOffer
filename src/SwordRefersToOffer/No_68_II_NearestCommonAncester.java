@@ -1,4 +1,7 @@
-package Problems;
+package SwordRefersToOffer;
+
+import SwordRefersToOffer.DataDefine.TreeNode;
+
 /*
  * 	LeetCode.68.2
  * 	方法一：
@@ -13,7 +16,8 @@ package Problems;
  * 	方法二：
  * 	看注释；
  */
-public class NearestCommonAncester {
+public class No_68_II_NearestCommonAncester
+{
 	class NodeInfo
     {
         int value;
@@ -21,7 +25,7 @@ public class NearestCommonAncester {
         NodeInfo left;
         NodeInfo right;
         NodeInfo parent;
-        NodeInfo(TreeNode now,NodeInfo par,int dep)
+        NodeInfo(TreeNode now, NodeInfo par, int dep)
         { 
             if(now != null)
             {

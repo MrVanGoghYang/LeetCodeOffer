@@ -1,4 +1,4 @@
-package ProblemsType;
+package ProblemsByType.Search;
 
 // LeetCode.841
 // 该题目无需回溯已经改变的条件，可以多次尝试不同方案，只要能进入所有房间即可； 
@@ -8,7 +8,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-public class Dfs_KeyAndRoom {
+public class No_841_Dfs_KeyAndRoom
+{
 	private HashSet<Integer> flag = new HashSet<Integer>();
 	private List<List<Integer>> roomInfo;
 
@@ -30,7 +31,7 @@ public class Dfs_KeyAndRoom {
 		rooms.add(room3);
 		rooms.add(room4);
 
-		Dfs_KeyAndRoom solution = new Dfs_KeyAndRoom();
+		No_841_Dfs_KeyAndRoom solution = new No_841_Dfs_KeyAndRoom();
 		System.out.println(solution.canVisitAllRooms(rooms));
 
 	}

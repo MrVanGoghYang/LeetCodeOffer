@@ -1,10 +1,11 @@
-package Problems;
+package SwordRefersToOffer;
 
-public class MissingNum {
+public class No_53_II_MissingNum
+{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MissingNum solution = new MissingNum();
+		No_53_II_MissingNum solution = new No_53_II_MissingNum();
 		int[] nums = {0,2};
 		System.out.println(solution.missingNumber2(nums));
 	}

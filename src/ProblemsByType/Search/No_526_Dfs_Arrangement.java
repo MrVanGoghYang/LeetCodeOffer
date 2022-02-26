@@ -1,13 +1,14 @@
-package ProblemsType;
+package ProblemsByType.Search;
 
 // LeetCode-526
-public class Dfs_Arrangement {
+public class No_526_Dfs_Arrangement
+{
 	private int count = 0;
 	private int[] numArr;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Dfs_Arrangement solution = new Dfs_Arrangement();
+		No_526_Dfs_Arrangement solution = new No_526_Dfs_Arrangement();
 		System.out.println(solution.countArrangement(4));
 
 	}

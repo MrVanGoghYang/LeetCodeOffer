@@ -1,9 +1,10 @@
-package ProblemsType;
+package ProblemsByType.Search;
 // LeetCode.934
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Bfs_ShortestBridge {
+public class No_934_Bfs_ShortestBridge
+{
 	
 	class Coordinate
 	{
@@ -14,7 +15,7 @@ public class Bfs_ShortestBridge {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Bfs_ShortestBridge solution = new Bfs_ShortestBridge();
+		No_934_Bfs_ShortestBridge solution = new No_934_Bfs_ShortestBridge();
 		int[][] A = {{1,1,1,1,1,1},{1,0,0,0,0,1},{1,0,0,0,0,1},{1,0,0,0,0,1},{1,0,0,0,0,1},{1,0,0,1,0,0}};
 		//int{][] A = {{0,1,0},{0,0,0},{0,0,1}};
 		//int[][] A = {{0,0,1,0,1},{0,1,1,0,1},{0,1,0,0,1},{0,0,0,0,0},{0,0,0,0,0}};

@@ -1,8 +1,9 @@
-package Problems;
+package SwordRefersToOffer;
 /* LeetCode.05
  * 每个空格换为3个字符因此定义3倍长度的字符数组，然后对字符串扫描，对空格和非空格情况分别赋值并记录长度最后返回;
  */
-public class ReplaceBlanks {
+public class No_05_ReplaceBlanks
+{
 	
     public String replaceSpace(String s) {
         return s.replaceAll(" ", "%20");

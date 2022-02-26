@@ -1,9 +1,13 @@
-package Problems;
+package SwordRefersToOffer;
+
+import SwordRefersToOffer.DataDefine.TreeNode;
+
 /*
  * 	LeetCode.54
  * 	搜索第K大的数，按照右中左的顺序来逆中序遍历并记录下所扫描过的节点数，当扫描到第K个时即为第K大得数;
  */
-public class KthMaxNodeInTree {
+public class No_54_KthMaxNodeInTree
+{
 	private TreeNode res = null;
 	private int index = 0;
     public int kthLargest(TreeNode root, int k) {

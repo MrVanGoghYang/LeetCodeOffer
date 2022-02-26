@@ -1,9 +1,13 @@
-package Problems;
+package SwordRefersToOffer;
+
+import SwordRefersToOffer.DataDefine.ListNode;
+
 /* LeetCode.06
  * 先对链表逆置，然后从头到尾赋值数组返回;
  * 其中逆置：p,q双指针一前一后移动，r临时记录q的下一个节点，用3个指针实现；
  */
-public class ReversePrintLinkedList {
+public class No_06_ReversePrintLinkedList
+{
 	public int[] reversePrint(ListNode head) {
         ListNode p = head,q = null,r=null;
         int[] res = {};

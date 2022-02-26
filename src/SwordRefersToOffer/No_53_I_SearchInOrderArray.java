@@ -1,9 +1,10 @@
-package Problems;
+package SwordRefersToOffer;
 /*
  * 	LeetCode.53.1
  * 	所给数组有序，则首先找到第一个与目标数字相等的位置，从该位置开始往后搜索统计target出现的次数即可;
  */
-public class SearchInOrderArray {
+public class No_53_I_SearchInOrderArray
+{
     public int search(int[] nums, int target) 
     {
     	int i = 0;

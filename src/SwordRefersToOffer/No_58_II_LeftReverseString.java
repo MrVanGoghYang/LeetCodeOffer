@@ -1,9 +1,10 @@
-package Problems;
+package SwordRefersToOffer;
 /*	LeetCode.58.2
  * 	方法一：将String转化为字符数组，对前n位字符逆置，再对后length - n位字符逆置，最后对整个数组逆置；
  * 	方法二：使用StringBuilder进行字符串拼接；或使用String直接取子串用+号拼接；
  */
-public class LeftReverseString {
+public class No_58_II_LeftReverseString
+{
 	 public String reverseLeftWords(String s, int n) {
 	    	char[] input= s.toCharArray();
 	    	reverse(input,0,n - 1);

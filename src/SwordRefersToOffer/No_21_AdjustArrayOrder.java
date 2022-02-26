@@ -1,9 +1,10 @@
-package Problems;
+package SwordRefersToOffer;
 /*
  * 	LeetCode.21
  * 	快速排序首位双指针扫描交换的变体形式;
  */
-public class AdjustArrayOrder {
+public class No_21_AdjustArrayOrder
+{
     public int[] exchange(int[] nums) {
 		int length = nums.length;
 		int i = 0;

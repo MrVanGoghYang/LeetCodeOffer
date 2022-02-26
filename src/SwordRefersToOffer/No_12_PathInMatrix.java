@@ -1,9 +1,10 @@
-package Problems;
+package SwordRefersToOffer;
 /*
  * 	LeetCode.12
  * 	先遍历查找数组中元素与word第一个字母相同的位置，从那些位置开始搜索。使用flag数组标记已经搜索过的位置，从当前位置分别向上下左右递归搜索，当一个方向有路径则返回；
  */
-public class PathInMatrix {
+public class No_12_PathInMatrix
+{
 	
     public boolean exist(char[][] board, String word) {
 		int row = board.length;
