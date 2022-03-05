@@ -18,6 +18,7 @@ A repository for Leetcode  problems.
 * 剑指 Offer 25. 合并两个排序的链表
 * 剑指 Offer 28. 对称的二叉树
 * 剑指 Offer 44. 数字序列中某一位的数字
+* 剑指 Offer 51. 数组中的逆序对
 * 剑指 Offer 53 - I. 在排序数组中查找数字 I
 * 剑指 Offer 53 - II. 0～n-1中缺失的数字
 * 剑指 Offer 54. 二叉搜索树的第k大节点
@@ -36,3 +37,8 @@ A repository for Leetcode  problems.
 * Leetcode 841. 钥匙和房间
 * Leetcode 934. 最短的桥
 * Leetcode 1368. 使网格图至少有一条有效路径的最小代价
+
+
+## TecentProblems
+该目录按照腾讯OJ笔试题排列
+* HangOn (逛街  https://www.nowcoder.com/questionTerminal/58ae39f4436b44d9836fc89542d67f71)
