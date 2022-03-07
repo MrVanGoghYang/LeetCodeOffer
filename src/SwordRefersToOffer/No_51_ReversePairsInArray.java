@@ -20,7 +20,8 @@ public class No_51_ReversePairsInArray
         System.out.println(solution.reversePairs(nums));
     }
 
-    public int reversePairs(int[] nums) {
+    public int reversePairs(int[] nums)
+    {
         return mergeSort(nums, 0, nums.length - 1);
     }
 

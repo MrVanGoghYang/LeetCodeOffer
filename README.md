@@ -42,3 +42,5 @@ A repository for Leetcode  problems.
 ## TecentProblems
 该目录按照腾讯OJ笔试题排列
 * HangOn (逛街  https://www.nowcoder.com/questionTerminal/58ae39f4436b44d9836fc89542d67f71)
+* ReversePairs(逆序对 https://www.nowcoder.com/questionTerminal/8fe007e54fc04b5e82089aaa71ba3553?f=discussion)
+* Holiday(假期 )
