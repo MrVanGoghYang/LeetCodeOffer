@@ -37,10 +37,13 @@ A repository for Leetcode  problems.
 * Leetcode 841. 钥匙和房间
 * Leetcode 934. 最短的桥
 * Leetcode 1368. 使网格图至少有一条有效路径的最小代价
+### BipartiteTree —— 二叉树
+* Leetcode 
 
 
 ## TecentProblems
 该目录按照腾讯OJ笔试题排列
-* HangOn (逛街  https://www.nowcoder.com/questionTerminal/58ae39f4436b44d9836fc89542d67f71)
-* ReversePairs(逆序对 https://www.nowcoder.com/questionTerminal/8fe007e54fc04b5e82089aaa71ba3553?f=discussion)
-* Holiday(假期 )
+* CompressString(2020 压缩算法 https://www.nowcoder.com/questionTerminal/c27561e5b7e0441493adb9a54071888d)
+* HangOn (2020 逛街  https://www.nowcoder.com/questionTerminal/58ae39f4436b44d9836fc89542d67f71)
+* ReversePairs(2020 逆序对 https://www.nowcoder.com/questionTerminal/8fe007e54fc04b5e82089aaa71ba3553?f=discussion)
+* Holiday(2020 假期 https://www.nowcoder.com/questionTerminal/7cd9a140387e455a972e8fea0e74be2c)

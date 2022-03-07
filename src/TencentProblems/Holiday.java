@@ -1,5 +1,6 @@
 package TencentProblems;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /*
@@ -33,8 +34,10 @@ import java.util.Scanner;
 例子说明1:
 小Q可以在第一天工作，第二天或第三天健身，小Q最少休息2天
 
-用例：两行全0 全休息、两行全1 不休息、第一行前半1后半0  第二行前半0后半1、第一行和第二行0 1交替
-dfs递归 -> dfs迭代  visit数组：0未访问、1上班、2锻炼、3休息
+测试用例：两行全0 全休息、两行全1 不休息、第一行前半1后半0  第二行前半0后半1、第一行和第二行0 1交替
+思路：动态规划：dp[i][0]代表第i天休息时所累计的最少休息天数 dp[i][1]代表第i天工作时所累计的最少休息天数 dp[i][2]代表第i天健身
+dp[i][0] = 1 + min(dp[i-1][0],dp[i-1][1],dp[i-1][2]) dp[i][1] = min(dp[i-1][0],dp[i-1][2])  dp[i][2] = min(dp[i-1][0],dp[i-1][1])
+res = min(dp[n][0],dp[n][1],dp[n][2])
  */
 public class Holiday
 {
@@ -45,8 +48,6 @@ public class Holiday
         int n = sc.nextInt();
         boolean[] company = new boolean[n];
         boolean[] gym = new boolean[n];
-        int[] visited = new int[n];
-        int res = Integer.MAX_VALUE;
         for (int i = 0; i < n; i++)
         {
             company[i] = sc.nextInt() == 1 ? true : false;
@@ -55,48 +56,25 @@ public class Holiday
         {
             gym[i] = sc.nextInt() == 1 ? true : false;
         }
-        if(company[0])
-            res = Math.min(res, solution.dfs(company, gym, visited, 0, 1));
-        if(gym[0])
-            res = Math.min(res, solution.dfs(company, gym, visited, 0, 2));
-        if(!company[0] && !gym[0])
-            res = Math.min(res, solution.dfs(company, gym, visited, 0, 3));
-        System.out.println(res);
+        System.out.println(solution.dp(company, gym));
     }
 
-    // 返回从第idx+1天开始，当天的活动为acti时，累计休息的最少天数
-    public int dfs(boolean[] company, boolean[] gym, int[] visited, int idx, int acti)
+    public int dp(boolean[] company, boolean[] gym)
     {
-        // 递归终止
-        if(idx == company.length || visited[idx] != 0)
-            return 0;
-        // 初始处理
-        int res = 0;
-
-        visited[idx] = acti;
-        // 所有可能选择
-        for(int i = 1; i <= 3; i++)
+        int[][] dp = new int[company.length + 1][3];
+        for(int i = 1; i <= company.length; i++)
         {
-            boolean[] item = getActiArr(company, gym, acti);
-            if(item != null && )
-            // 选择一种
-            // 子递归
-            int saveRes = res;
-            res += dfs(company, gym, visited, idx + 1, i);
-            // 撤销选择 回溯
-            if(idx + 1 < company.length)
-                visited[idx + 1] = 0;
+            Arrays.fill(dp[i], company.length + 1);
         }
-        return res;
-    }
+        for (int i = 1; i <= company.length; i++)
+        {
 
-    public boolean[] getActiArr(boolean[] company, boolean[] gym, int acti)
-    {
-        if(acti == 1)
-            return company;
-        else if(acti == 2)
-            return gym;
-        return null;
+            dp[i][0] = Math.min(dp[i - 1][0], Math.min(dp[i - 1][1], dp[i - 1][2])) + 1;
+            if(company[i - 1])
+                dp[i][1] = Math.min(dp[i - 1][0], dp[i - 1][2]);
+            if(gym[i - 1])
+                dp[i][2] = Math.min(dp[i - 1][0], dp[i - 1][1]);
+        }
+        return Math.min(dp[company.length][0], Math.min(dp[company.length][1], dp[company.length][2]));
     }
-
 }
