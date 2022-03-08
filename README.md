@@ -36,6 +36,7 @@ A repository for Leetcode  problems.
 * Leetcode 115. 不同的子序列
 ### Graph —— 图论
 * Leetcode 207. 课程表
+* Leetcode 785. 判断二分图
 ### Search —— 搜索
 * Leetcode 54. 螺旋矩阵
 * Leetcode 526. 优美的排列
