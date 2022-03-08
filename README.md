@@ -29,16 +29,19 @@ A repository for Leetcode  problems.
 ## ProblemsByType
 该目录按照题目的类型分类
 ### BackTraceAndRecursion —— 递归与回溯
+* 
+### BipartiteTree —— 二叉树
+*
 ### DP —— 动态规划
 * Leetcode 115. 不同的子序列
+### Graph —— 图论
+* Leetcode 207. 课程表
 ### Search —— 搜索
 * Leetcode 54. 螺旋矩阵
 * Leetcode 526. 优美的排列
 * Leetcode 841. 钥匙和房间
 * Leetcode 934. 最短的桥
 * Leetcode 1368. 使网格图至少有一条有效路径的最小代价
-### BipartiteTree —— 二叉树
-* Leetcode 
 
 
 ## TecentProblems
