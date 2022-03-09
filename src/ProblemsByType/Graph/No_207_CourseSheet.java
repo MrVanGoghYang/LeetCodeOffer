@@ -47,20 +47,20 @@ public class No_207_CourseSheet
             inDegrees[edge[0]]++;
         }
 
-//        // DFS遍历
-//        int[] visited = new int[numCourses]; // 0:未访问 1：访问中 2：已访问
-//        for(int i = 0; i < numCourses; i++)
-//        {
-//            // 避免非连同图
-//            if(visited[i] == 0)
-//                dfs(graph, visited, i);
-//            // dfs之后如果有环，直接退出不继续循环，剪枝
-//            if(hasCycle)
-//                break;
-//        }
+        // DFS遍历
+        int[] visited = new int[numCourses]; // 0:未访问 1：访问中 2：已访问
+        for(int i = 0; i < numCourses; i++)
+        {
+            // 避免非连同图
+            if(visited[i] == 0)
+                dfs(graph, visited, i);
+            // dfs之后如果有环，直接退出不继续循环，剪枝
+            if(hasCycle)
+                break;
+        }
 
-        // BFS遍历
-        bfs(graph, inDegrees);
+//        // BFS遍历
+//        bfs(graph, inDegrees);
         return !hasCycle;
     }
 

@@ -28,6 +28,11 @@ A repository for Leetcode  problems.
 
 ## ProblemsByType
 该目录按照题目的类型分类
+### Array —— 数组
+* Leetcode 1. 两数之和
+* Leetcode 15. 三数之和 
+### LinkedList —— 链表
+* Leetcode 2. 两数相加
 ### BackTraceAndRecursion —— 递归与回溯
 * 
 ### BipartiteTree —— 二叉树
@@ -35,15 +40,19 @@ A repository for Leetcode  problems.
 ### DP —— 动态规划
 * Leetcode 115. 不同的子序列
 ### Graph —— 图论
-* Leetcode 207. 课程表
+* Leetcode 207. 课程表|
+* Leetcode 210. 课程表||
+* Leetcode 743 网络延迟时间
 * Leetcode 785. 判断二分图
+* Leetcode 886 可能的二分法
 ### Search —— 搜索
 * Leetcode 54. 螺旋矩阵
 * Leetcode 526. 优美的排列
 * Leetcode 841. 钥匙和房间
 * Leetcode 934. 最短的桥
 * Leetcode 1368. 使网格图至少有一条有效路径的最小代价
-
+### String —— 字符串
+* Leetcode 415. 字符串相加
 
 ## TecentProblems
 该目录按照腾讯OJ笔试题排列
