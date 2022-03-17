@@ -68,7 +68,6 @@ public class Holiday
         }
         for (int i = 1; i <= company.length; i++)
         {
-
             dp[i][0] = Math.min(dp[i - 1][0], Math.min(dp[i - 1][1], dp[i - 1][2])) + 1;
             if(company[i - 1])
                 dp[i][1] = Math.min(dp[i - 1][0], dp[i - 1][2]);
