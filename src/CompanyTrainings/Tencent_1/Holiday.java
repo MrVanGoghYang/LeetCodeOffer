@@ -1,4 +1,4 @@
-package TencentProblems;
+package CompanyTrainings.Tencent_1;
 
 import java.util.Arrays;
 import java.util.Scanner;
