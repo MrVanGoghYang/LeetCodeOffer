@@ -26,5 +26,8 @@ hs_err_pid*
 /out/*
 
 # idea file
-/.idea
+.idea
 *.iml
+
+# Company Exam Files (Cached files without descriptions)
+/CompanyExams/
