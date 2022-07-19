@@ -1,8 +1,6 @@
-package ProblemsByType.BipartiteTree;
+package ProblemsByType.BinaryTree;
 
 import SwordRefersToOffer.DataDefine.TreeNode;
-
-import java.util.HashSet;
 
 public class No_124_BinTreeMaxPathSum
 {

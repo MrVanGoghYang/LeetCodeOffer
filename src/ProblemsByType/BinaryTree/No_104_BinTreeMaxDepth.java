@@ -1,4 +1,4 @@
-package ProblemsByType.BipartiteTree;
+package ProblemsByType.BinaryTree;
 
 import SwordRefersToOffer.DataDefine.TreeNode;
 import java.util.*;

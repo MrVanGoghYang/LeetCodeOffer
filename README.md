@@ -43,6 +43,10 @@ A repository for Leetcode  problems.
 * Leetcode 136. 只出现一次的数字
 * Leetcode 169. 多数元素
 * Leetcode 215. 数组中第K个最大元素
+* Leetcode 238. 除自身以外数组的乘积
+* Leetcode 240. 搜索二维矩阵||
+* Leetcode 283. 移动零
+* Leetcode 287. 寻找重复数
 ### LinkedList —— 链表
 * Leetcode 2. 两数相加
 * Leetcode 19. 删除倒数第K个元素
@@ -53,6 +57,7 @@ A repository for Leetcode  problems.
 * Leetcode 148. 排序链表
 * Leetcode 160. 相交链表
 * Leetcode 206. 反转链表
+* Leetcode 234. 回文链表
 ### BackTraceAndRecursion —— 递归与回溯
 * Leetcode 17. 电话号码的字母组合
 * Leetcode 22. 括号生成
@@ -69,6 +74,10 @@ A repository for Leetcode  problems.
 * Leetcode 105. 从前序和中序排列构造二叉树
 * Leetcode 114. 二叉树展开为链表
 * Leetcode 124. 二叉树最大路径和
+* Leetcode 226. 翻转二叉树
+* Leetcode 236. 二叉树的最近公共祖先
+* Leetcode 208. 实现Trie(前缀树)
+* Leetcode 297. 二叉树的序列化和反序列化
 ### DP —— 动态规划
 * Leetcode 53. 最大子数组和
 * Leetcode 63. 不同路径数
@@ -78,6 +87,8 @@ A repository for Leetcode  problems.
 * Leetcode 139. 单词划分
 * Leetcode 152. 最大乘积子数组
 * Leetcode 198. 打家劫舍
+* Leetcode 221. 最大正方形
+* Leetcode 279. 完全平方数
 ### Graph —— 图论
 * Leetcode 207. 课程表|
 * Leetcode 210. 课程表||
@@ -92,6 +103,7 @@ A repository for Leetcode  problems.
 * Leetcode 841. 钥匙和房间
 * Leetcode 934. 最短的桥
 * Leetcode 1368. 使网格图至少有一条有效路径的最小代价
+* Leetcode 301. 删除无效的括号
 ### SlidingWindow —— 滑动窗口
 * Leetcode 76. 最小覆盖子集
 ### Stack —— 栈

@@ -1,4 +1,4 @@
-package ProblemsByType.BipartiteTree;
+package ProblemsByType.BinaryTree;
 import java.util.*;
 
 public class No_96_UniqueBinSearchTrees
